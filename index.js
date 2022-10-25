@@ -8,7 +8,7 @@ function getTime(){
    let h = new Date().getHours(); 
    let m = new Date().getMinutes(); 
    let s = new Date().getSeconds(); 
-   let tyme = "PM";
+   let tyme = "AM";
 
    if(h > 12){
     
