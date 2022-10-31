@@ -17,6 +17,9 @@ function getTime(){
     tyme = "PM"
     
    }
+   else{
+      h = "0" + h;
+   }
    if(m < 10){
     m = "0"+m;
    }
